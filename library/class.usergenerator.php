@@ -5,7 +5,7 @@ class UserGenerator {
   public static $Gender = array('m', 'f', 'u');
   public $Names;
   public function __construct($lang = 'en') {
-    if(!in_array($lang, UserGenerator::$Langs)) {
+    if(!in_array($lang, array_keys(UserGenerator::$Langs))) {
       $lang = array_rand(UserGenerator::$Langs);
     }
     require("tables/$lang-names.php");
