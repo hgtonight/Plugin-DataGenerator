@@ -16,7 +16,7 @@
 $PluginInfo['DataGenerator'] = array(
   'Name' => 'Data Generator',
   'Description' => 'Generates data for Vanilla. An evolution of Example Data by @R_J.',
-  'Version' => '0.1',
+  'Version' => '0.2',
   'RequiredApplications' => array('Vanilla' => '2.1.8'),
   'RequiredTheme' => FALSE,
   'RequiredPlugins' => FALSE,

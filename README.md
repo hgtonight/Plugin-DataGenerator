@@ -1,4 +1,4 @@
-DataGenerator
+Data Generator
 ==============
 A Vanilla Forums plugin that generates users, discussions, and comments. It comes with five language tables.
 
