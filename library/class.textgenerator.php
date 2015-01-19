@@ -12,7 +12,7 @@ class TextGenerator {
   public function __construct($lang = 'en') {
     $this->n = 2;
     $this->separator = ' ';
-    if(!in_array($lang, TextGenerator::$Langs)) {
+    if(!in_array($lang, array_keys(TextGenerator::$Langs))) {
       $lang = array_rand(TextGenerator::$Langs);
     }
     require("tables/$lang.php");
